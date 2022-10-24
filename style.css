@@ -1,0 +1,37 @@
+:root{
+--White: hsl(0, 0%, 100%);
+--LightGray: hsl(212, 45%, 89%); 
+--GrayishBlue: hsl(220, 15%, 55%); 
+--DarkBlue: hsl(218, 44%, 22%);
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: var(--LightGray);
+}
+
+article{
+background-color: var(--White);
+max-width: 16rem;
+border-radius: 1em;
+padding: 1rem;
+text-align: center;
+}
+
+p{
+    color: var(--GrayishBlue);
+}
+
+strong{
+    font-size: 20px;
+}
+
+img{
+    max-width: 16rem;
+    border-radius: .5em;
+    margin-bottom: 1rem;
+}
