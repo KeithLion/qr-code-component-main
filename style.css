@@ -14,7 +14,7 @@ body{
     background-color: var(--LightGray);
 }
 
-article{
+main{
 background-color: var(--White);
 max-width: 16rem;
 border-radius: 1em;
@@ -26,8 +26,9 @@ p{
     color: var(--GrayishBlue);
 }
 
-strong{
+header{
     font-size: 20px;
+    font-weight: 700;
 }
 
 img{
